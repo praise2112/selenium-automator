@@ -2,11 +2,16 @@
   "name": "selenium-automator",
   "version": "1.0.0",
   "description": "Run selenium automation from JSON",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
   "files": [
    "dist/*"
   ],
   "author": {
-    "name": "Oketola Praise"
+    "name": "Oketola Praise",
+    "email": "oketola.praise@gmail.com"
   },
   "scripts": {
     "tsc": "tsc"
